@@ -19,11 +19,11 @@ array_length = len(music_array)
 
 def song():
 	import os
-	os.system("open music/oceanbyte.wav")
+	os.system("open music/" + music_array[0])
 
 def song2():
 	import os
-	os.system("open music/solidsnaketheme1.mp3")
+	os.system("open music/" + music_array[1])
 
 def song3():
 	random_song_index = randint(0, array_length - 1)
